@@ -75,20 +75,9 @@ This is a iOS & Android Ride Sharing and Taxi Apps like Uber, myTaxi & Lyft Clon
 - Show online nearest drivers ratings to users
   - Display Driver's ratings to user
 
-
-  
-
-
-  
-
-
-
-
-  
-  
-   
 # Future Features
 - update user profile 
+- payment gateway
   
 # dependencies
 - cupertino_icons: ^1.0.2
