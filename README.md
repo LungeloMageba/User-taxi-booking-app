@@ -30,7 +30,19 @@ This is a iOS & Android Ride Sharing and Taxi Apps like Uber, myTaxi & Lyft Clon
   - Google Maps for Flutter ios and Android apps
   
 - Read and Display current online user info on Navigation Drawer
- - Read and display current online user indo from database
+  - Read and display current online user indo from database
+
+- Searching location
+
+- GeoLocator, Get user current location
+  - get user current location and update it on maps
+  - alert dialog, user asked for location permission
+
+- Reverse GeoCoding, setPickup address with provider state management
+  - get human readable address form user geo graphic coordinate
+
+
+
   
   
    
