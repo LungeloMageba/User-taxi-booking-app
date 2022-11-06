@@ -11,9 +11,9 @@ This is a iOS & Android Ride Sharing and Taxi Apps like Uber, myTaxi & Lyft Clon
 7. download the emulator. 
 8. run the project on the emulator you've downlaoded.
 
-# How to use the Drivers app
-1. Sign up as a driver and Register your vehicle/ login if you already have an account.
-2. press the 'now offline' button so that you can be online and riders/ passengers will be able send ride requests to you.
+# How to use the Users/riders app
+1. Sign up as a User/ login if you already have an account.
+2. 
 
 3. a blue dialog box with a 'cancel' and 'accept' button will pop up on the screen when ever you have been requested for a ride. to cancel the ride request press 'cancel' to accept the ride request select 'accept'.if you accept the ride request directions to the passengers current location will be drawn on your map.
 
