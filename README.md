@@ -68,6 +68,12 @@ This is a iOS & Android Ride Sharing and Taxi Apps like Uber, myTaxi & Lyft Clon
 
 - User's Trips history
  - filter out and display trips which are fully completed
+ 
+- Users profile screen and about screen
+  - display user info on user profile screen
+  
+- Show online nearest drivers ratings to users
+  - Display Driver's ratings to user
 
 
   
