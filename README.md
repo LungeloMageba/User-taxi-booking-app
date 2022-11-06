@@ -13,65 +13,26 @@ This is a iOS & Android Ride Sharing and Taxi Apps like Uber, myTaxi & Lyft Clon
 
 # How to use the Users/riders app
 1. Sign up as a User/ login if you already have an account.
-2. 
-
-3. a blue dialog box with a 'cancel' and 'accept' button will pop up on the screen when ever you have been requested for a ride. to cancel the ride request press 'cancel' to accept the ride request select 'accept'.if you accept the ride request directions to the passengers current location will be drawn on your map.
-
-5.when you've arrived to the users current location press the 'arrived' button, wait for the user to get in the car press the 'lets go' button then follow the directions(pollyline) to the users destination.
-
-6.click 'end trip' if you've reached the destination.
-
-7.collect payment.
+2.click "where to" 
+3. type your dropoff location
+4. request a ride
 
 # User Stories
-- a user can recieve ride requests.
+- a user can request a ride 
+-a user can view trip history
 
 # Features
-- Sign up, vehicle registration and login
-  - all form fields are validated.
-
-- GeoFire[Get Driver Location Updates] and Online Offline Driver
-  - Get Driver Current Location
-  - Drive can go online and offline driver
-  - update driver location at real time
-
-- Push Notification System
-  - Push Notifications System- FCM Generate Token   for each Device
-  - Send Push Notification using Firebase Cloud Messaging
-  - Retrieve user rideRequest information from Database using user rideRequestId
-  - display notification dialog box with user ride request information
-  - play notification received sound on driver phone
- 
-- Allow a driver to accept userRideRequest
-  - driver accept userRideRequest and show initial user trip details to driver
-
-- Draw polyline from driver current location to user pickup location
-  - retrieve current online driver data from firebase databse
-  - save assigned driver details to userRideRequest information
- 
-- Animates move car icon marker at Real Time when the driver moves
-  - pause and resume live location uddates using stream subscription
-  - driver car icon marker animates move at real time when driver position change
- 
- -update duration time & driver location at real time in database
- 
-- Drivers Arrived| update, Set Polyline from pickup to dropoff.
-   - driver arrived at user pickup location -driver click arrived button
-   - update/set polyline from user pickup location to user dropOff location
-   - update duration time according to user ride request status
+-  Authentitcate new Users
+  - Login and signUp user
+  - Logout user
   
-- Fare amount collection dialog & save fare to drivers earnings
-  - fare amount collection dialog
-  - saving fare amount to driver's total earnings
-  - driver can cancel the ride request
- 
-- Driver Earnings| trips history |Total number of trips
-  - driver earnings and trips count
-  - show driver earnings and total number of trips and trips history
-
-- Driver's Ratings and profile screen
-   - read and display driver ratings using provider state management
-   - display driver profile screen
+- Google maps
+  - Google Maps for Flutter ios and Android apps
+  
+- Read and Display current online user info on Navigation Drawer
+ - Read and display current online user indo from database
+  
+  
    
 # Future Features
 - update user profile 
