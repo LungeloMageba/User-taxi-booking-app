@@ -23,7 +23,7 @@ This is a iOS & Android Ride Sharing and Taxi Apps like Uber, myTaxi & Lyft Clon
 -a user can view trip history
 
 # Features
--  Authentitcate new Users
+- Authentitcate new Users
   - Login and signUp user
   - Logout user
   
@@ -60,6 +60,16 @@ This is a iOS & Android Ride Sharing and Taxi Apps like Uber, myTaxi & Lyft Clon
 
 - Calculate fare amount according to vehicle type
   - calculate fare amount from origin to destination(per minutes & per kilometer)
+  - Calculate fare amount from origin to destination on basis of vehicle type
+  
+- Save ride requests to database and remove ride requests from database
+
+- Users pay fare amount and user rate the driver or trip experience
+
+- User's Trips history
+ - filter out and display trips which are fully completed
+
+
   
 
 
