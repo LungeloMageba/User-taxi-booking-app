@@ -16,6 +16,7 @@ This is a iOS & Android Ride Sharing and Taxi Apps like Uber, myTaxi & Lyft Clon
 2.click "where to" 
 3. type your dropoff location
 4. request a ride
+5. wait for a driver to accept your ride request
 
 # User Stories
 - a user can request a ride 
@@ -40,6 +41,30 @@ This is a iOS & Android Ride Sharing and Taxi Apps like Uber, myTaxi & Lyft Clon
 
 - Reverse GeoCoding, setPickup address with provider state management
   - get human readable address form user geo graphic coordinate
+  - update user pick up location address with provider state management
+ 
+- Auto complete place search, search dropoff address
+  - Places api
+  -Convert, add json response to list- Display places predictions on listview
+  
+- Draw polyLine from origin destination location
+  - direction details API - get direction details origin to destination
+  - draw polyline from origin to destination
+  
+- Cancel Destination Location selected by user
+
+- Request a ride
+  - request a ride check (check if no driver available)
+  - retrieve active drivers information and their car details
+  -display online nearest drivers and their information
+
+- Calculate fare amount according to vehicle type
+  - calculate fare amount from origin to destination(per minutes & per kilometer)
+  
+
+
+  
+
 
 
 
